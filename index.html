@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARES 3D - Impresión 3D personalizada</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div id="pageLoader">
+        <div class="loader-ring"></div>
+    </div>
+
+    <!-- Estrellas -->
+    <div id="stars"></div>
+
+    <!-- Navegación -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="site-logo">
+                <img class="nav-logo-small" src="logo-removebg-preview.png" alt="ARES 3D logo">
+                <span>ARES 3D</span>
+            </a>
+            <div class="nav-right">
+                <ul id="navMenu">
+                    <li><a href="#inicio" class="active">Inicio</a></li>
+                    <li><a href="#categorias">Productos</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section">
+        <div class="container">
+            <div class="hero-badge">✨ Impresión 3D Personalizada</div>
+            <h1 class="hero-title">
+                Transformamos tus <span class="hero-gradient-text">ideas</span><br>
+                en realidad 3D
+            </h1>
+            <p class="hero-subtitle">
+                Desde figuras de tus mascotas hasta productos personalizados únicos.<br>
+                Creamos piezas que cuentan historias.
+            </p>
+            <div class="hero-cta-group">
+                <a href="#categorias" class="cta-primary">Explorar productos</a>
+                <a href="#nosotros" class="cta-secondary">Conocer más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categorías de Productos -->
+    <section id="categorias" class="section-band">
+        <div class="container">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <p class="section-subtitle">
+                Explora nuestras categorías y encuentra la creación perfecta para ti
+            </p>
+            
+            <div class="categories-grid">
+                <!-- Mascotas 3D -->
+                <a href="mascotas.html" class="category-card">
+                    <div class="category-image">🐾</div>
+                    <div class="category-content">
+                        <h3 class="category-title">Mascotas 3D</h3>
+                        <p class="category-description">
+                            Eterniza a tu compañero en una figura 3D realista, semi-realista o cartoon. Un recuerdo que perdura.
+                        </p>
+                        <span class="category-link">
+                            Ver galería
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Llaveros Personalizados -->
+                <div class="category-card">
+                    <div class="category-image">🔑</div>
+                    <div class="category-content">
+                        <h3 class="category-title">Llaveros Personalizados</h3>
+                        <p class="category-description">
+                            Diseños únicos que llevas contigo. Nombres, iniciales, figuras o lo que imagines.
+                        </p>
+                        <span class="category-link">
+                            Próximamente
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Soportes de Celular -->
+                <div class="category-card">
+                    <div class="category-image">📱</div>
+                    <div class="category-content">
+                        <h3 class="category-title">Soportes de Celular</h3>
+                        <p class="category-description">
+                            Funcionales y con estilo. Diseños ergonómicos personalizables para tu espacio.
+                        </p>
+                        <span class="category-link">
+                            Próximamente
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Figuras Decorativas -->
+                <div class="category-card">
+                    <div class="category-image">🎨</div>
+                    <div class="category-content">
+                        <h3 class="category-title">Figuras Decorativas</h3>
+                        <p class="category-description">
+                            Arte para tu hogar u oficina. Desde personajes hasta diseños abstractos únicos.
+                        </p>
+                        <span class="category-link">
+                            Próximamente
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="nosotros" class="about-section">
+        <div class="container">
+            <h2 class="section-title">Sobre ARES 3D</h2>
+            <div class="about-content">
+                <p>
+                    En <span class="about-highlight">ARES 3D</span>, combinamos tecnología de punta con pasión artística para crear piezas que van más allá de lo ordinario. Cada proyecto es una oportunidad para materializar recuerdos, ideas y sueños.
+                </p>
+                <p style="margin-top: 1.5rem;">
+                    Nos especializamos en la <span class="about-highlight">personalización total</span>. Desde la primera foto hasta el producto final, trabajamos contigo para asegurar que cada detalle refleje exactamente lo que imaginas.
+                </p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Proyectos realizados</div>
+                </div>
+              
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">¿Listo para crear algo único?</h2>
+            <p class="section-subtitle">
+                Contáctanos por WhatsApp y comencemos tu proyecto
+            </p>
+
+            <a class="whatsapp-cta" href="https://wa.me/2615772219?text=Hola%2C%20quiero%20crear%20un%20proyecto%20con%20ARES%203D" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.52 3.48A11.94 11.94 0 0012 0C5.373 0 0 5.373 0 12c0 2.112.55 4.09 1.597 5.84L0 24l6.36-1.66A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12 0-3.21-1.246-6.188-3.48-8.52z" fill="#fff" opacity=".04"/>
+                    <path d="M17.472 14.382c-.297-.148-1.758-.867-2.03-.967-.273-.099-.472-.148-.672.15-.198.297-.768.966-.94 1.165-.173.198-.347.223-.644.074-.297-.148-1.255-.462-2.39-1.475-.885-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.447-.52.148-.173.198-.297.298-.495.099-.198.05-.371-.025-.519-.074-.148-.672-1.617-.92-2.218-.242-.582-.487-.503-.672-.513l-.572-.01c-.198 0-.52.074-.792.371s-1.04 1.016-1.04 2.479 1.064 2.876 1.213 3.074c.148.198 2.095 3.2 5.076 4.487.709.306 1.26.489 1.691.626.71.227 1.357.195 1.869.118.571-.085 1.758-.72 2.006-1.414.248-.694.248-1.289.173-1.414-.074-.124-.272-.198-.57-.347z" fill="#fff"/>
+                </svg>
+                
+                2615772219
+            </a>
+
+              <a class="whatsapp-cta" href="https://wa.me/2615772219?text=Hola%2C%20quiero%20crear%20un%20proyecto%20con%20ARES%203D" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.52 3.48A11.94 11.94 0 0012 0C5.373 0 0 5.373 0 12c0 2.112.55 4.09 1.597 5.84L0 24l6.36-1.66A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12 0-3.21-1.246-6.188-3.48-8.52z" fill="#fff" opacity=".04"/>
+                    <path d="M17.472 14.382c-.297-.148-1.758-.867-2.03-.967-.273-.099-.472-.148-.672.15-.198.297-.768.966-.94 1.165-.173.198-.347.223-.644.074-.297-.148-1.255-.462-2.39-1.475-.885-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.447-.52.148-.173.198-.297.298-.495.099-.198.05-.371-.025-.519-.074-.148-.672-1.617-.92-2.218-.242-.582-.487-.503-.672-.513l-.572-.01c-.198 0-.52.074-.792.371s-1.04 1.016-1.04 2.479 1.064 2.876 1.213 3.074c.148.198 2.095 3.2 5.076 4.487.709.306 1.26.489 1.691.626.71.227 1.357.195 1.869.118.571-.085 1.758-.72 2.006-1.414.248-.694.248-1.289.173-1.414-.074-.124-.272-.198-.57-.347z" fill="#fff"/>
+                </svg>
+                
+                2617216827
+            </a>
+
+
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=61574446280459" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 12.07C22 6.48 17.52 2 12 2S2 6.48 2 12.07c0 4.99 3.66 9.12 8.44 9.93v-7.03H7.9v-2.9h2.54V9.41c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.45h-1.25c-1.23 0-1.62.77-1.62 1.56v1.87h2.77l-.44 2.9h-2.33V22C18.34 21.19 22 16.21 22 12.07z" fill="currentColor"/>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/3d.ares/" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm5 6.2a4.8 4.8 0 100 9.6 4.8 4.8 0 000-9.6zM18.4 6.1a1.1 1.1 0 11-2.2 0 1.1 1.1 0 012.2 0z" fill="currentColor"/>
+                    </svg>
+                </a>
+                <a href="https://www.tiktok.com/@ares.3d" target="_blank" rel="noopener" class="social-link" aria-label="TikTok">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17 2v7.09a4 4 0 01-3.99-3.99H11v10.9A4 4 0 117 19V9h2v10a2 2 0 104 0V6h1.01A5 5 0 0017 2z" fill="currentColor"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <img class="footer-logo" src="logo-removebg-preview.png" alt="ARES 3D">
+            
+        
+
+            <p>&copy; 2025 ARES 3D. Transformando ideas en realidad tridimensional.</p>
+        </div>
+    </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
